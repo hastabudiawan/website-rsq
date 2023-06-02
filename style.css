@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Body */
 body {
     background-color: #E6E7E8;
 }
 
-/* Font */
-
+/* Background & Text Color*/
 .bg-qadr {
     background-color: #009444 !important;
+}
+
+.text-qadr-1 {
+    color: #009444 !important;
+}
+
+.text-qadr-2 {
+    color: #0A5C2F !important;
 }
 
 /* Carousel */
@@ -30,10 +38,7 @@ body {
     height: 142;
 }
 
-/* .btn-janji-temu {
-
-} */
-
+/* Btn WA */
 .myBtn {
     position: fixed;
     bottom: 20px;
@@ -44,6 +49,119 @@ body {
     outline: none;
     color: #009444;
     cursor: pointer;
+}
+
+/* Artikel Card */
+.artikel {
+    margin-top: 80px !important;
+}
+
+.slide {
+    background-color: #009444 !important;
+    border-radius: 25px;
+}
+
+.slide-img {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.s-img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: block;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.btn-artikel {
+    background-color: #0A5C2F !important;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.btn-artikel:hover {
+    background-color: #FFF !important;
+    color: #0A5C2F;
+}
+
+/* Promo */
+.promo-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 0px 25px 36px 25px;
+    border-radius: 21px 21px 21px 21px;
+}
+
+.promo-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dp-1 {
+    border-right: 2px solid;
+    padding: 10px;
+}
+
+.dp-2 {
+    padding: 10px;
+}
+
+.divider {
+    width: 100%;
+    border-style: solid;
+}
+
+.divider-left {
+    border-left: 6px solid black;
+}
+
+.btn-promo {
+    background-color: #0A5C2F !important;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.btn-promo:hover {
+    background-color: #61CE70 !important;
+    color: #FFF;
+}
+
+/* Hubungi Kami */
+.contact {
+    margin-top: 80px;
+}
+
+.btn-contact {
+    background-color: #0A5C2F !important;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.btn-contact:hover {
+    background-color: #61CE70 !important;
+    color: #FFF;
 }
 
 /* Slider */
@@ -171,6 +289,7 @@ body {
         display: none;
     }
 
+    /* Sekilas Pandang */
     .p-sekilas-pandang {
         font-size: 11px;
     }
@@ -179,4 +298,7 @@ body {
 /* footer */
 footer {
     background-color: #ECBE00;
+}
+.maps-icon {
+    font-size: 15px;
 }
